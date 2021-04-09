@@ -3,7 +3,7 @@
 int main() {
     int numero1, numero2;
 
-    printf("Escribe dos n%cmeros enteros:\n", 163);
+    printf("Escribe dos n%cmeros:\n", 163);
     scanf("%d %d", &numero1, &numero2);
 
     if (numero1 == numero2) {
