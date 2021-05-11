@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void division(float, float);
+void suma(float, float);
 
 int main() {
     float dividendo, divisor;
@@ -10,12 +10,12 @@ int main() {
     printf("Introduzca el divisor:");
     scanf("%f", &divisor);
 
-    division(dividendo, divisor);
+    suma(dividendo, divisor);
 
     return 0;
 }
 
-void division(float dividendo, float divisor) {
+void suma(float dividendo, float divisor) {
 
     printf("El resultado de la divisi%cn es: %f", 162, dividendo / divisor);
 }
