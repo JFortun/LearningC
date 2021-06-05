@@ -5,7 +5,7 @@ int main() {
     int i, posiciones, opcion;
     char cadena[100];
 
-    printf("\nPlease enter a string:");
+    printf("\nIntroduce una cadena:");
     gets(cadena);
     printf("Escribe un n%cmero para usar de clave:\n", 163);
     scanf("%d", &posiciones);
