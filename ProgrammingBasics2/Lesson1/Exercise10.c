@@ -9,10 +9,10 @@ int main() {
     char palabra[50];
     int veces;
 
-    printf("Enter file nombre:");
+    printf("Introduce el nombre del archivo:");
     scanf("%s", nombre);
 
-    printf("Enter palabra to search in file:");
+    printf("Introduce la palabra a buscar:");
     scanf("%s", palabra);
 
     file = fopen(nombre, "r");
