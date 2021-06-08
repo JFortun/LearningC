@@ -42,7 +42,7 @@ int main() {
             nodo *auxiliar = nuevo();
             auxiliar = miLista;
             printf("Introduzca la posici%cn en la que introducir:", 162);
-            scanf("%d", &codigo);
+            scanf("%d", &posicion);
             for (i = 2; i <= posicion - 1; i++) {
                 auxiliar = auxiliar->siguiente;
 
