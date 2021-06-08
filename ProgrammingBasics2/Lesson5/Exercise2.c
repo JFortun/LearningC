@@ -39,14 +39,13 @@ int main() {
             miNodo = nuevo();
             miNodo->codigo = codigo;
             strcpy(miNodo->nombre, nombre);
-            // Traverse to the last node
             nodo *auxiliar = nuevo();
             auxiliar = miLista;
             while (auxiliar != NULL && auxiliar->siguiente != NULL) {
                 auxiliar = auxiliar->siguiente;
             }
 
-            auxiliar->siguiente = miNodo; // Link address part
+            auxiliar->siguiente = miNodo;
         }
     } while (opcion != 2);
 
