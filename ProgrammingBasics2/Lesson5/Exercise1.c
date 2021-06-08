@@ -31,16 +31,17 @@ int main() {
 
     do {
         opcion = menu();
-        printf("Introduzca el c%cdigo:", 162);
-        scanf("%d", &codigo);
-        printf("Introduzca el nombre");
-        scanf(" %s", nombre);
-        miNodo = nuevo();
-        miNodo->codigo = codigo;
-        strcpy(miNodo->nombre, nombre);
-        miNodo->siguiente = miLista;
-        miLista = miNodo;
-
+        if (opcion == 1) {
+            printf("Introduzca el c%cdigo:", 162);
+            scanf("%d", &codigo);
+            printf("Introduzca el nombre");
+            scanf(" %s", nombre);
+            miNodo = nuevo();
+            miNodo->codigo = codigo;
+            strcpy(miNodo->nombre, nombre);
+            miNodo->siguiente = miLista;
+            miLista = miNodo;
+        }
     } while (opcion != 2);
 
     nodo *auxiliar = nuevo();
