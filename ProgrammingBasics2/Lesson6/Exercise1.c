@@ -175,8 +175,6 @@ int elementosPila(int contador) {
 }
 
 void buscarElemento(Pila *pila, int codigo, int contador) {
-
-    printf("Mostrando la pila:\n");
     pNodo miNodo; // Variable auxiliar para manipular un nodo
 
     // miNodo apunta al primer elemento de la lista
