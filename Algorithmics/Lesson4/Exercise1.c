@@ -162,7 +162,7 @@ int MiembroHash(char *cad, TablaHash t) {
 void InsertarHash(char *cad, TablaHash t) {
     int pos;
     if (!cad) {
-        error("Cadena inexistente”");
+        error("Cadena inexistente");
     }
     if (!MiembroHash(cad, t)) {
         pos = Localizar1(cad, t);
